@@ -1,0 +1,83 @@
+#webcam-container {
+    width: auto;
+    text-align: center;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    /* border: 2px solid; */
+  }
+
+  body{
+    /* margin-top: 50px; */
+  }
+  
+  #main{
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  
+  video{
+      width: 150vh;
+  }
+  
+  .box2{
+      width: 240px;
+      border-radius: "20px";
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+  
+  }
+  
+  #signal{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+      border-radius: 16px;
+      background-color: #000;
+      border: 2px solid;
+  }
+  
+  #signal>div{
+      width: 100px;
+      height:100px;
+      border-radius: 50%;
+   
+  }
+  
+  .box1{
+    margin-top: 50px;
+  }
+  #red{
+      background-color: red;
+      opacity: 0.2;
+  }
+  
+  #yellow{
+      background-color: yellow;
+      opacity: 1;
+  }
+  
+  #green{
+      background-color: green;
+      opacity: 0.2;
+  }
+  
+  button{
+      padding: 5px 10px 5px 10px;
+      background-color: black;
+      color: white;
+      font-size: 20px;
+      border-radius: 10px;
+  }
+
+  #heading{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
